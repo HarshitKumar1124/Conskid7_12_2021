@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: UbantuM;
+    src: url(../Fonts/ubuntu.medium.ttf);
+}
+
+
+@font-face {
+    font-family: Opensan;
+    src: url(../Fonts/OpenSans-Regular.ttf);
+}
+
+
+
+@font-face {
+    font-family: OpensanB;
+    src: url(../Fonts/OpenSans-Bold.ttf);
+}
+
+
+
+#Service_Container{
+   
+    // border:4rem solid rgb(255, 30, 255);
+    position:absolute;
+    top:1162rem;
+
+
+    #Service_Heading{
+        // border:2rem solid orange;
+        font-size: 70rem;
+        color:#164966;
+        font-family: UbantuM;
+        text-align: center;
+    }
+
+    #Conskid_define_container{
+        justify-content: center;
+
+        #Conskid_define_content{
+            color:#707070;
+        font-size: 40rem;
+        // border:4rem solid black;
+        margin:41rem 0rem !important;
+        text-align: center;
+        width:1172rem;
+        }
+
+        #Service_Logo{
+            // border:2px solid red;
+            margin-top: 231rem !important;
+            width:1500rem;
+            height:500rem;
+        }
+        
+    }
+
+    #Service_Template_container{
+        height:100%;
+        // border:4rem solid yellow;
+        height:737rem;
+        justify-content: center;
+        padding-top: 79rem;
+
+        #Template_container{
+
+            // border:2px solid dodgerblue;
+          
+            width:1654rem;
+            justify-content: space-between;
+
+
+            .Template{
+
+                width:802rem;
+                
+                background-color: rgba(148, 130, 128,0.1);
+                border-radius: 15rem;
+                // border:2px solid magenta;
+                margin-bottom: 47rem !important;
+
+                .Circular_Logo{
+                    width:173rem;
+                    height: 100%;
+                    // border:2px solid red;
+                    justify-content: center;
+
+                    img{
+                        
+                        width:122rem;
+                      
+                        
+                    }
+                }
+
+                .Template_content{
+                    width:582rem;
+                    position: relative;
+                    // border:2px solid greenyellow;
+                    height: 100%;
+
+                    p{
+                       
+                        font-size: 30rem;
+                        font-family: OpensanB;
+                        padding-top: 29rem;
+
+                    }
+
+                    .Content{
+                        width:100%;
+                   
+                        font-size: 25rem;
+                        font-family: Opensan;
+                 
+                        // border:2px solid orangered;
+                        height:80rem;
+                        overflow:hidden;
+                        margin:9rem 0rem 29rem 0rem;
+              
+
+                    }
+                }
+            }
+        }
+    }
+}
