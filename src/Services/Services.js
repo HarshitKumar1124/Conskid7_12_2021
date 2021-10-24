@@ -9,6 +9,8 @@ import test_paper from "../Asset/test_paper.svg"
 import CV from "../Asset/CV.svg"
 import mock_interview from "../Asset/mock_interview.svg"
 
+import Logo from "../Asset/Group 2577.svg"
+
 
 const Services = () => {
     return (
@@ -22,7 +24,7 @@ const Services = () => {
                 <Grid xs={12} item container id="Conskid_define_container">
                     <Grid  item id="Conskid_define_content" >CONSKID is a comprehensive online platform to support young undergrad aspirants in achieving career milestones. We strive to empower the learners through skill-enhancing services & industrial exposure suited to their skills & interest.</Grid>
 
-                    <Grid xs={12} item id="Service_Logo" >CONSKID is a comprehensive online platform to support young undergrad aspirants in achieving career milestones. We strive to empower the learners through skill-enhancing services & industrial exposure suited to their skills & interest.</Grid>
+                    <Grid xs={12} item id="Service_Logo" ><img src={Logo} style={{height:"100%",paddingLeft:"200rem",position:"relative",top:"-100rem"}}/></Grid>
 
                 </Grid>
 

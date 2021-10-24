@@ -27,7 +27,7 @@ const Footer = () => {
                         <Grid id="SocialHandles">
                             <a href="https://www.facebook.com/onskid" target="_blank" title="FaceBook"><FacebookIcon style={{fontSize:"45rem",color:"white",marginRight:"31rem"}}/></a>
 
-                            <a href="https://www.facebook.com/onskid" target="_blank" title="Twitter"><TwitterIcon style={{fontSize:"45rem",color:"white",marginRight:"31rem"}}/></a>
+                            <a href="https://www.twitter.com/C_ONSKID" target="_blank" title="Twitter"><TwitterIcon style={{fontSize:"45rem",color:"white",marginRight:"31rem"}}/></a>
 
                             <a href="https://www.linkedin.com/company/c-onskid" target="_blank" title="LinkedIn"><LinkedInIcon style={{fontSize:"45rem",color:"white",marginRight:"31rem"}}/></a>
                            
