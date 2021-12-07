@@ -22,10 +22,10 @@
 
 
 #Journey{
-    height:1048rem;
-    // border:1rem solid black;
+    
+    //  border:4rem solid black;
     position: absolute;
-    top:4458rem;
+    top:4520rem;
 
 
     #Journey_Heading{
@@ -33,21 +33,27 @@
         font-family: UbantuM;
         font-size: 70rem;
         text-align: center;
-        // border:1rem solid orangered;
+        //  border:1rem solid orangered;
         width:100%;
         align-self: flex-start;
         margin-bottom: 50rem;
     }
     #Journey_vector{
-        height: 920rem;
-        // border:1rem solid greenyellow;
+        height: 892rem;
+      
+    //  border:4rem solid greenyellow;
         justify-content: center;
     
-        
+      #vector{  
+
+        // border:4rem dotted magenta;
+        width: inherit;
+        height: inherit;
         img{
             width:100%;
             height:100%;
         }
+    }
     }
 }
 
@@ -57,7 +63,7 @@
     // border:1rem solid magenta;
     height: 910rem;
     position:absolute;
-    top:5634rem;
+    top:5650rem;
     align-content: flex-start;
 
 
@@ -66,12 +72,12 @@
         font-family: UbantuM;
         color:#164966;
         text-align: center;
-        // border:1rem solid orange;
+        //  border:1rem solid orange;
        
     }
 
     #Testimonial_Carousel{
-        // border:4rem solid dodgerblue;
+        //  border:4rem solid dodgerblue;
         height:90%;
       
         
@@ -85,7 +91,7 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    // border: 2px solid green;
+    //  border: 2px solid green;
     padding-top: 76rem;
     
     background: #fff;
@@ -115,31 +121,34 @@
   .Card{
       width:535rem;
       height:644rem;
-    //   border:2px solid dodgerblue;
-      box-shadow: 10px -10px 80px #0000001A;
+    //    border:2px solid dodgerblue;
+      box-shadow: 0px 0px 80px #0000001b;
       position: relative;
       margin-bottom: 40rem;
 
       .Card_Text_Holder{
-        //   border:2px solid yellow;
-        padding:43rem 0rem 0rem 78rem;
+        //  border:2px solid yellow;
+        padding:52rem 0rem 0rem 78rem;
         position: relative;
+        font-size: 40rem;
 
     }
 
     .Name_Holder{
-        // border:2px solid greenyellow;
+        //  border:2px solid greenyellow;
         height:220rem;
         margin-top: 60rem;
         background: url("../Asset/Path399.svg") no-repeat;
         background-size: contain;
         position: relative;
 
-        img{
+       picture img{
             width:116rem;
             height:116rem;
             left:203rem;
             position: absolute;
+            // border:2px solid red;
+            border-radius: 50%;
             top:-73rem;
         }
 
@@ -152,7 +161,7 @@ div{
 
             p{
                 padding-top: 94rem;
-                // border:2px solid red;
+                //  border:2px solid red;
                 font-family: MontserratB;
             }
 
@@ -170,12 +179,16 @@ div{
       .Card_Content{
           font-size:20rem;
           font-family:Montserrat ;
+          line-height: 1.3;
           color:#000000;
           width:378rem;
           height:315rem;
-        //   border:2px solid orangered;
-          text-align: center;
+        //    border:2px solid orangered;
+          justify-content: center;
+          align-items: center;
+          display: flex;
           overflow: hidden;
+         
          
       }
   }

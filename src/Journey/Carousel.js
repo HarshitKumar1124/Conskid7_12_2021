@@ -1,9 +1,12 @@
 import React from 'react'
 import "swiper/swiper-bundle.min.js";
 
-import "./Journey.scss"
+import "./Journey.css"
 import "swiper/swiper-bundle.min.css"
 import Card from "./Card"
+
+
+import UserTestimonialList from './UserTestimonialList';
 
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -22,18 +25,18 @@ const Carousel = () => {
         <>
           
 
-            <Swiper slidesPerView={3} spaceBetween={0} slidesPerGroup={3} loop={true} loopFillGroupWithBlank={true} pagination={{
+            <Swiper slidesPerView={3} spaceBetween={-60} slidesPerGroup={3} loop={true} loopFillGroupWithBlank={false} pagination={{
                 "clickable": true
             }} navigation={true} className="mySwiper">
-                <SwiperSlide><Card/></SwiperSlide>
-                <SwiperSlide><Card/></SwiperSlide>
-                <SwiperSlide><Card/></SwiperSlide>
-                <SwiperSlide><Card/></SwiperSlide>
-                <SwiperSlide><Card/></SwiperSlide>
-                <SwiperSlide><Card/></SwiperSlide>
-                <SwiperSlide><Card/></SwiperSlide>
-                <SwiperSlide><Card/></SwiperSlide>
-                <SwiperSlide><Card/></SwiperSlide>
+
+                {
+                  UserTestimonialList.map((element)=>{
+                    return <SwiperSlide><Card Id={`Card${element.id}`} Content={element.Content} Company={element.Company} Name={element.Name} Institute={element.Institute} Image={element.Image}/></SwiperSlide>
+                  })
+                }
+
+                
+                
             </Swiper>
 
         </>

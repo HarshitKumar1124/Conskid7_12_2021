@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: UbantuM;
+  src: url(../Fonts/ubuntu.medium.ttf);
+}
+
+@font-face {
+  font-family: Opensan;
+  src: url(../Fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpensanB;
+  src: url(../Fonts/OpenSans-Bold.ttf);
+}
+
+#Service_Container {
+  position: absolute;
+  top: 1100rem;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Service_Container #Service_Heading {
+  font-size: 70rem;
+  color: #164966;
+  font-family: UbantuM;
+  text-align: center;
+}
+
+#Service_Container #Conskid_define_container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Service_Container #Conskid_define_container #Conskid_define_content {
+  color: #707070;
+  font-size: 40rem;
+  width: 1172rem;
+  height: 270rem;
+  margin: 41rem 0rem !important;
+  text-align: center;
+}
+
+#Service_Container #Conskid_define_container #Service_Logo {
+  margin-top: -20rem !important;
+  margin-bottom: 100rem !important;
+  width: 1500rem;
+  height: 600rem;
+}
+
+#Service_Container #Service_Template_container {
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 79rem;
+}
+
+#Service_Container #Service_Template_container #Template_container {
+  width: 1654rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template {
+  width: 802rem;
+  background-color: rgba(148, 130, 128, 0.1);
+  border-radius: 15rem;
+  margin-bottom: 47rem !important;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template .Circular_Logo {
+  width: 173rem;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template .Circular_Logo img {
+  width: 122rem;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template .Template_content {
+  width: 582rem;
+  position: relative;
+  height: 100%;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template .Template_content p {
+  font-size: 34rem;
+  font-family: OpensanB;
+  padding-top: 29rem;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template .Template_content .Content {
+  width: 100%;
+  font-size: 30rem;
+  font-family: Opensan;
+  height: 80rem;
+  overflow: hidden;
+  margin: 9rem 0rem 29rem 0rem;
+}
+/*# sourceMappingURL=Services.css.map */

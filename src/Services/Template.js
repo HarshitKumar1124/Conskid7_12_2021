@@ -1,11 +1,14 @@
 import React from 'react'
-import "./Services.scss";
+import "./Services.css";
 import Grid from "@material-ui/core/Grid"
 
 
 
 
+
 const Template = (props) => {
+
+    
     return (
         <>
             <Grid item container className="Template" id={props.id}>

@@ -1,11 +1,12 @@
-import react, { useState } from 'react'
-import "./ComingSoon.scss"
+import react, { useState,useEffect } from 'react'
+import "./ComingSoon.css"
 import Grid from "@material-ui/core/Grid"
-import Mason from "../Asset/Component 43 – 1.svg"
+import Mason from "./Component 43 – 1.svg"
 import Button from '@material-ui/core/Button'
-import Logo from "../Asset/Layer 2.svg"
+import Logo from "./Layer 2.svg"
 import { Link } from 'react-router-dom'
-
+import {ToastContainer,toast} from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 
 
 const ComingSoon = () => {
@@ -17,14 +18,34 @@ const ComingSoon = () => {
         
     }
 
+ 
 
-    const Notify_Click = () => {
+
+
+    const Notify_Click = (e) => {
         
-
-       setemail("");
+        e.preventDefault();
+      
+        if(email!="")
+        {toast.success('🦄 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            fontSize:"100rem"
+            });
+            setemail("");
+        }
+        else
+        alert("Fill the Email field first")
+       
      
     }
 
+   
     return (
         <>
             <Grid xs={12} id="ComingSoon_container" style={{ alignSelf: "flex-start", position: "relative" }}>
@@ -46,8 +67,9 @@ const ComingSoon = () => {
                             {/* border: "2px solid magenta",  */}
                             <div style={{ width: "657rem", height: "65rem", display: "flex" }}>
                                 {/* border: "2px solid green", */}
+                            
                                 <input type="email" placeholder="YOUR EMAIL" value={email} onChange={UpdateEmail} style={{ width: "70%", height: "100%", color: "#ACACAC", fontSize: "30rem", padding: "16rem 0 16rem 29rem" }} />
-                                <Button style={{ backgroundColor: "#00A1A4", color: "white", fontSize: "30rem", fontFamily: "UbantuM", width: "30%", textAlign: "center", padding: "16rem 0rem" }} onClick={Notify_Click}>NOTIFY ME</Button>
+                                <input type="submit" value="NOTIFY ME" style={{ backgroundColor: "#00A1A4", color: "white", fontSize: "30rem", fontFamily: "UbantuM", width: "30%", textAlign: "center", padding: "16rem 0rem" }} onClick={Notify_Click}/>
                          
                             </div>
 
@@ -60,7 +82,18 @@ const ComingSoon = () => {
 
 
             </Grid>
-            
+            <ToastContainer
+position="top-right"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick={true}
+rtl={false}
+pauseOnFocusLoss
+draggable={true}
+pauseOnHover={true}
+fontSize="100rem"
+/>
         </>
     )
 }

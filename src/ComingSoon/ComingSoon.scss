@@ -10,9 +10,9 @@
 }
 
 #ComingSoon_container{
-    width: 1920rem;
-    height: 1080rem;
-    // border:2px solid black;
+    width: 100vw;
+    min-height: 1080rem;
+ border:2px solid black;
    
 
     
@@ -20,10 +20,12 @@
 
 
 #Building{
-    background-image: url("../Asset/Component 42 – 1.svg");
-    background-repeat:repeat-x;
+    background-image: url("./Component 42 – 1.svg");
+    background-repeat:repeat-x ;
+
     background-position-y: 143rem;
     background-size: contain;
+    // border:2rem solid magenta;
    
     
 
@@ -52,7 +54,7 @@ font-size: 80rem;
 }
 
 #Logo{
-    border:2px solid green;
+    // border:2px solid green;
     img{
         width:162rem;
         height:48rem;

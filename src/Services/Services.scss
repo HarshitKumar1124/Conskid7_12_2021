@@ -26,13 +26,16 @@
 
 #Service_Container{
    
-    // border:4rem solid rgb(255, 30, 255);
+//  border:4rem solid rgb(255, 30, 255);
     position:absolute;
-    top:1162rem;
+    top:1100rem;
+    width:100vw;
+    display: flex;
+    justify-content: center;
 
 
     #Service_Heading{
-        // border:2rem solid orange;
+        //  border:2rem dotted orange;
         font-size: 70rem;
         color:#164966;
         font-family: UbantuM;
@@ -46,24 +49,27 @@
             color:#707070;
         font-size: 40rem;
         // border:4rem solid black;
+        width:1172rem;
+        height: 270rem;
         margin:41rem 0rem !important;
         text-align: center;
-        width:1172rem;
+        
         }
 
         #Service_Logo{
-            // border:2px solid red;
-            margin-top: 231rem !important;
+            //  border:2px solid red;
+            margin-top: -20rem !important;
+            margin-bottom: 100rem !important;
             width:1500rem;
-            height:500rem;
+            height:600rem;
         }
         
     }
 
     #Service_Template_container{
         height:100%;
-        // border:4rem solid yellow;
-        height:737rem;
+    //   border:4rem solid yellow;
+        
         justify-content: center;
         padding-top: 79rem;
 
@@ -106,7 +112,7 @@
 
                     p{
                        
-                        font-size: 30rem;
+                        font-size: 34rem;
                         font-family: OpensanB;
                         padding-top: 29rem;
 
@@ -115,7 +121,7 @@
                     .Content{
                         width:100%;
                    
-                        font-size: 25rem;
+                        font-size: 30rem;
                         font-family: Opensan;
                  
                         // border:2px solid orangered;

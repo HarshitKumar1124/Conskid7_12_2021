@@ -31,12 +31,16 @@
     max-height: 1019rem;
     background: transparent linear-gradient(180deg, #184261 0%, #029FA4 100%) 0% 0% no-repeat padding-box;
     position: relative;
+    // border:2px solid greenyellow;
+    
 
     
     #Navbar{
-            // border:1rem solid white;
+            //  border:1rem solid white;
             height:111rem;
             position: absolute;
+            display: flex;
+            justify-content: center;
 
 
             #Logo_Div{
@@ -56,7 +60,7 @@
 
 
             #Service_Resource_Button{
-                // border:2rem solid orangered;
+            //   border:2rem solid orangered;
                 width:560rem;
                 justify-content: space-between;
                 position: absolute;
@@ -68,7 +72,7 @@
                 font-size: 35rem;
                 color:white;
                 font-family: CalibriB;
-                // border:2px solid red;
+            //    border:2px solid red;
                 }
 
             }
@@ -97,15 +101,26 @@
 
 
     #Conskid_wrapper{
-        // border:1rem solid greenyellow;
+        //  border:1rem solid greenyellow;
         height:704rem;
         position: absolute;
         justify-content: center;
         bottom:86rem;
 
         #Non_vector{
+
+            height: inherit;
             p{
-                font-size: 120rem;
+                font-size: 110rem;
+                 
+                @media screen and (max-width:1030px){
+                    &{
+                        font-size: 100rem;
+                    }
+                }
+                   
+
+
                 font-family: UbantuM;
                 text-align: left;
                 font: normal normal medium 120px/140px UbuntuM;
@@ -116,7 +131,7 @@
                     position: relative;
                     &::before{
                         content:"";
-                        width:80%;
+                        width:44%;
                         height: 12rem;
                         background-color: white;
                         position:absolute;
@@ -168,6 +183,8 @@
         }
 
         #Mainvector{
+
+            height: inherit;
 
             #vector{
                 width:90%;

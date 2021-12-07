@@ -1,6 +1,6 @@
 import React from 'react'
 import Grid from "@material-ui/core/Grid"
-import "./Journey.scss";
+import "./Journey.css";
 import Journey_vector from "../Asset/Journey_vector.svg"
 import Carousel from "./Carousel"
 

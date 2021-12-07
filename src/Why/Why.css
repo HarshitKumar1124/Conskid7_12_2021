@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: CalibriB;
+  src: url(../Fonts/CALIBRIB.TTF);
+}
+
+@font-face {
+  font-family: Opensan;
+  src: url(../Fonts/OpenSans-Regular.ttf);
+}
+
+#Why_Container {
+  position: absolute;
+  top: 3200rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Why_Container #Why_Heading {
+  font-family: UbantuM;
+  font-size: 70rem;
+  text-align: center;
+  color: #164966;
+}
+
+#Why_Container #Template_container {
+  height: 1175rem;
+  padding-top: 60rem;
+  width: 1654rem;
+}
+
+#Why_Container #Template_container .Template {
+  height: 325rem;
+  background: url("../Asset/Group 239.svg");
+  padding-left: 76rem;
+}
+
+#Why_Container #Template_container .Template .HeadBlock {
+  width: 934rem;
+  position: relative;
+  height: 100%;
+}
+
+#Why_Container #Template_container .Template .HeadBlock .Heading {
+  font-size: 46rem;
+  font-family: CalibriB;
+  color: #000000;
+  position: absolute;
+  top: 69rem;
+}
+
+#Why_Container #Template_container .Template .HeadBlock .SomeText {
+  font-family: Opensan;
+  font-size: 32rem;
+  color: #1A2E35;
+  position: absolute;
+  top: 131.3rem;
+}
+
+#Why_Container #Template_container .Template .vectorBlock {
+  width: 367rem;
+  height: 100%;
+}
+
+#Why_Container #Template_container .Template .vectorBlock img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=Why.css.map */

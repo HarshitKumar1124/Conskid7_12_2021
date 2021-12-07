@@ -1,6 +1,6 @@
 import React from 'react'
 import Grid from "@material-ui/core/Grid"
-import "./FirstUI.scss"
+import "./FirstUI.css"
 import Navbar from "./Navbar"
 import Content from "./ConskidIsBest"
 

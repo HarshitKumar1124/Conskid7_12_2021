@@ -1,25 +1,32 @@
 import React from 'react'
-import "./Journey.scss"
+import "./Journey.css"
 import Grid from "@material-ui/core/Grid"
 import CardDesign from "../Asset/Path399.svg"
 import DP from "../Asset/depositphotos_8803246-stock-photo-asian-college-student@2x.png"
 
 
 
-const Card = () => {
+
+const Card = (props) => {
     return (
         <>
             <Grid className="Card">
 
                 <Grid className="Card_Text_Holder">
-                    <Grid className="Card_Content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor inuis autem vel eum iriure dolor in henduis autem vel eum iriure dolor inuis autem vel</Grid>
+                    <Grid className="Card_Content">{props.Content}</Grid>
                 </Grid>
                 <Grid className="Name_Holder">
-                    <img src={DP} alt="ProfileDP" title="Name" />
+                    <picture>
+                        <source srcSet={props.Image} alt="ProfileDP" title={props.Name}></source>
+                        <img src={DP} alt="ProfileDP" title={props.Name} />
+                    </picture>
                   
                     <div>
-                        <p>Biswa Kumar Sir</p>
-                        <span>IIT Ashoke Nagar<br/>Intern At Amazon</span>
+                        <p>{props.Name}</p>
+                        {
+                            (props.Company!="")?<span>{props.Institute}<br/>Intern At {props.Company}</span>:<span>{props.Institute}<br/>Member At Conskid</span>
+                        }
+                        
                         
                     </div>
                 </Grid>

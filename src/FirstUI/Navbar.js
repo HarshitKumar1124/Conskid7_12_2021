@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Grid from "@material-ui/core/Grid"
-import "./FirstUI.scss"
+import "./FirstUI.css"
 import Logo from "../Asset/logo.svg"
 import Button from '@material-ui/core/Button';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';

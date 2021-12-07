@@ -1,6 +1,6 @@
 import React from 'react'
 import Grid from "@material-ui/core/Grid"
-import "./Footer.scss";
+import "./Footer.css";
 import MailIcon from '@material-ui/icons/Mail';
 import CallIcon from '@material-ui/icons/Call';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -40,18 +40,18 @@ const Footer = () => {
                         <Grid id="ServiceList">
                             <Grid id="ServiceHead">Services</Grid>
                             <ul className="List">
-                                <li>CV Making</li>
-                                <li>Test/Practice Papers</li>
-                                <li>Mock Interview</li>
-                                <li>Career Counselling</li>
+                                <li><a href="#CV Making">CV Making</a></li>
+                                <li><a href="#Test/Practice Papers">Test/Practice Papers</a></li>
+                                <li><a href="#Mock Interview">Mock Interview</a></li>
+                                <li><a href="#Career Counselling">Career Counselling</a></li>
                             </ul>
                         </Grid>
 
                         <Grid id="ResourceList">
                             <Grid id="ResourceHead">Resources</Grid>
                             <ul className="List">
-                                <li>Blogs</li>
-                                <li>Testimonials</li>
+                                <li><a>Blogs</a></li>
+                                <li><a>Testimonials</a></li>
                             </ul>
                         </Grid>
                     </Grid>
@@ -62,10 +62,10 @@ const Footer = () => {
                     <Grid  xs={12}id="About">About</Grid>
                         <Grid id="AboutList">
                             <ul className="List">
-                                <li>Our Team</li>
-                                <li>FAQ</li>
-                                <li>Careers</li>
-                                <li>Events</li>
+                                <li><a >Our Team</a></li>
+                                <li><a >FAQ</a></li>
+                                <li><a >Careers</a></li>
+                                <li><a >Events</a></li>
                             </ul>
                         </Grid>
                             

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: UbantuM;
+  src: url(../Fonts/ubuntu.medium.ttf);
+}
+
+#ComingSoon_container {
+  width: 100vw;
+  min-height: 1080rem;
+  border: 2px solid black;
+}
+
+#Building {
+  background-image: url("./Component 42 – 1.svg");
+  background-repeat: repeat-x;
+  background-position-y: 143rem;
+  background-size: contain;
+}
+
+#Building h3 {
+  text-align: center;
+  font: normal normal medium 80rem/92rem UbuntuM;
+  letter-spacing: 48rem;
+  color: #00A1A4;
+  opacity: 1;
+  font-size: 80rem;
+}
+
+#Building p {
+  font-size: 30rem;
+  font-family: UbantuM;
+  color: #1A2E35;
+  letter-spacing: 10.5rem;
+  text-align: center;
+  margin: 25rem;
+}
+
+#Logo img {
+  width: 162rem;
+  height: 48rem;
+  position: absolute;
+  top: 49rem;
+  left: 100rem;
+}
+/*# sourceMappingURL=ComingSoon.css.map */
